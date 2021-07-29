@@ -7,8 +7,8 @@ You can find an explanation of the concept at https://towardsdatascience.com/ima
 I used the SIFT algorithm to extract key_points.
 You can use other algorithms to improve the results.  
 
-There are two reasons I share this code:
-1) The cv2.Stitcher_create does image enhancement which could be problematic in some usecases.
+This was a homework for image processing class and there are two reasons why I share this code:
+1) The cv2.Stitcher_create does color enhancement which could be problematic in some usecases.
 2) Students can use this minimal code to learn the concept better.
 
 
@@ -49,19 +49,20 @@ Here are some results genere
 
 ## Results
 
-You can find the images in input folder:
+You can find the input images under the "inputs" folder:
 
-1) Brussels
-    ```shell script
-    python3 main.py --input_dir inputs/Brussels/
-    ```
-    ![alt Bruseels output](results/Brussels.jpg)
 
-2) Office
+1) Office
     ```shell script
     python3 main.py --input_dir inputs/Office/ --sequence "3,2,1,0"
     ```
     ![alt Bruseels output](results/Office.jpg)
+
+2) Brussels
+    ```shell script
+    python3 main.py --input_dir inputs/Brussels/
+    ```
+    ![alt Bruseels output](results/Brussels.jpg)
 
 3) Mountain
     ```shell script
